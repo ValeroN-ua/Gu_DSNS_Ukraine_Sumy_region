@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ТУТ НАЗВА ДЛЯ ПОСИЛАННЯ ТА ВКЛАДКИ БРАУЗЕРА -->
+    <title>GU_DSNS_Ukraine_Sumy_region</title>
+    
+    <!-- Підключення стилів (зовнішній вигляд) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Головний блок форми реєстрації -->
+    <div class="register-container">
+        
+        <!-- Заголовок сайту -->
+        <h2>Реєстрація користувача</h2>
+        <p class="subtitle">Головне управління ДСНС України у Сумській області</p>
+        
+        <!-- Форма з полями -->
+        <form id="regForm">
+            
+            <!-- Блок для введення імені -->
+            <div class="input-group">
+                <label for="username">Прізвище та ім'я</label>
+                <input type="text" id="username" required placeholder="Іванов Іван">
+            </div>
+
+            <!-- Блок для введення пошти -->
+            <div class="input-group">
+                <label for="email">Електронна пошта</label>
+                <input type="email" id="email" required placeholder="example@mail.com">
+            </div>
+
+            <!-- Блок для введення пароля -->
+            <div class="input-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" required placeholder="Мінімум 6 символів">
+            </div>
+
+            <!-- Кнопка відправки -->
+            <button type="submit" class="btn-submit">Зареєструватися</button>
+            
+        </form>
+        
+        <!-- Блок, де з'являтиметься текст про успішну реєстрацію або помилку -->
+        <div id="message" class="message"></div>
+        
+    </div>
+
+    <!-- Підключення логіки (натискання кнопки) -->
+    <script src="script.js"></script>
+</body>
+</html>

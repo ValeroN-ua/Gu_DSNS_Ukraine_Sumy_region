@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://unsplash.com');
+    
+    background-size: cover;       
+    background-position: center;  
+    background-attachment: fixed;  
+    display: flex;
+    justify-content: center;      
+    align-items: center;          
+    height: 100vh;
+    margin: 0;
+}
+
+.register-container {
+    background-color: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(5px);                  
+    padding: 30px;
+    border-radius: 12px;                          
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);    
+    width: 100%;
+    max-width: 400px;
+    border-top: 6px solid #e63946;                
+}
+
+h2 {
+    margin-bottom: 5px;
+    color: #1d3557;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #457b9d;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1d3557;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #e63946; 
+    outline: none;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #e63946; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #c1121f;
+}
+
+.message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.success { color: #2a9d8f; } 
+.error { color: #e63946; }   
